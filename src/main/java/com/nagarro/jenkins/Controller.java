@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-    @GetMapping("/hello")
+    @GetMapping("/jenkins")
     public String Hello()
     {
-        return "Hello from Jenkins";
+        return "jenkins running successfully";
     }
 }
